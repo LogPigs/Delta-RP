@@ -1,0 +1,63 @@
+{
+	"textures": {
+		"0": "animated_java:blueprint/door/void",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [10.3997, 22.3997, 30.1997],
+			"to": [0.8003, -1.5997, 6.2003],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [17.6, 22.4, 32]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 0, 4, 4],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [0, 0, 4, 4],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [0, 0, 4, 4],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [0, 0, 4, 4],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [0, 0, 4, 4],
+					"texture": "#0"
+				}
+			}
+		},
+		{
+			"from": [0.7997, -1.6003, 6.1997],
+			"to": [10.4003, 8.0003, 6.8003],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [8, 22.4, 8]
+			},
+			"faces": {
+				"south": {
+					"uv": [0, 0, 8, 16],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [0, 0, 4, 4],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

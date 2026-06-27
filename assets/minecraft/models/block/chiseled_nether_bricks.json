@@ -1,0 +1,7 @@
+{
+    "parent": "block/ctm",
+    "textures": {
+        "all": "block/void_br",
+        "base": "block/void"
+    }
+}
